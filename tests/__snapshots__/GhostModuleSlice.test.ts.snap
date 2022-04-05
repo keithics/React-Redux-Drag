@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Module Tests should be able to change the drag modules 1`] = `
+Array [
+  Object {
+    "coord": Object {
+      "h": 200,
+      "w": 2,
+      "x": 1,
+      "y": 80,
+    },
+    "id": 1,
+  },
+  Object {
+    "coord": Object {
+      "h": 100,
+      "w": 2,
+      "x": 5,
+      "y": 180,
+    },
+    "id": 2,
+  },
+  Object {
+    "coord": Object {
+      "h": 200,
+      "w": 3,
+      "x": 4,
+      "y": 290,
+    },
+    "id": 3,
+  },
+]
+`;
+
+exports[`Module Tests should be able to change the module coordinates 1`] = `
+Array [
+  Object {
+    "coord": Object {
+      "h": 200,
+      "w": 2,
+      "x": 1,
+      "y": 80,
+    },
+    "id": 1,
+  },
+  Object {
+    "coord": Object {
+      "h": 100,
+      "w": 2,
+      "x": 1,
+      "y": 2,
+    },
+    "id": 2,
+  },
+  Object {
+    "coord": Object {
+      "h": 200,
+      "w": 3,
+      "x": 4,
+      "y": 290,
+    },
+    "id": 3,
+  },
+]
+`;
+
+exports[`Module Tests should return the initial state 1`] = `
+Array [
+  Object {
+    "coord": Object {
+      "h": 200,
+      "w": 2,
+      "x": 1,
+      "y": 80,
+    },
+    "id": 1,
+  },
+  Object {
+    "coord": Object {
+      "h": 100,
+      "w": 2,
+      "x": 5,
+      "y": 180,
+    },
+    "id": 2,
+  },
+  Object {
+    "coord": Object {
+      "h": 200,
+      "w": 3,
+      "x": 4,
+      "y": 290,
+    },
+    "id": 3,
+  },
+]
+`;

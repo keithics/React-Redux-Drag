@@ -1,0 +1,19 @@
+---
+name: 'Linting Workflow'
+
+'on':
+  push:
+    branches-ignore: [main]
+
+jobs:
+  ci:
+    name: 'Integration'
+    runs-on: 'ubuntu-latest'
+    steps:
+      - name: 'Checkout Code'
+        uses: 'actions/checkout@v2'
+
+      - name: 'Lint code'
+        run: |
+          yarn
+          yarn lint

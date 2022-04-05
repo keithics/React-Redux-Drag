@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`helpers getCoordinates 1`] = `
+Object {
+  "bottom": 0,
+  "left": 10,
+  "right": 0,
+  "top": 0,
+}
+`;
+
+exports[`helpers isOverlapping must return false if both modules are spaced out 1`] = `false`;
+
+exports[`helpers isOverlapping must return true if both modules are overlapping 1`] = `true`;
+
+exports[`helpers localX2ModuleX 1`] = `-1`;
+
+exports[`helpers moduleW2LocalWidth 1`] = `159`;
+
+exports[`helpers moduleX2LocalX 1`] = `179`;
+
+exports[`helpers moduleYGutter 1`] = `11`;
+
+exports[`helpers setMinMax must return the highest 1`] = `20`;
+
+exports[`helpers setMinMax must return the lowest 1`] = `10`;
+
+exports[`helpers setMinMax must return the same number if between min and max 1`] = `15`;
+
+exports[`helpers snapToGutter 1`] = `10`;

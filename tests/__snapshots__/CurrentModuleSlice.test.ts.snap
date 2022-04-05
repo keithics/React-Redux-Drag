@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Current Module Tests should be able to change module 1`] = `
+Object {
+  "id": 2,
+}
+`;
+
+exports[`Current Module Tests should return the initial state 1`] = `
+Object {
+  "id": 0,
+}
+`;
