@@ -44,25 +44,3 @@ module can move within the layout container while matching the following require
 Animation GIF
 
 ![Grid Layout DnD](./demo.gif)
-
-[Video](https://vimeo.com/641041193)
-
-## Technical Requirements
-
-You have to use TypeScript 4.4 and React Hooks. For DnD, you can use HTML Drag and Drop API or any low-level DnD
-library (e.g [React DnD](https://react-dnd.github.io/react-dnd/)) but don't use any ready-to-use library such
-as [React Grid Layout](https://github.com/react-grid-layout/react-grid-layout).
-
-## Final Notes
-
-Some documentation and good unit tests will be much appreciated. Please make sure to apply common design patterns and
-best practices like you would do for any of your professional projects.
-
-Are you usually using additional tools in your projects? We can’t wait to hear about your best practices and why you
-think it's important to use them!
-
-## Encouragement
-
-Digication team members have worked through this work sample to make sure we are not asking for too much of your time.
-This shouldn't take you longer than 2 to 4 hours depending on your knowledge and the bells and whistles you want to add.
-We are looking forward to hearing from you!
